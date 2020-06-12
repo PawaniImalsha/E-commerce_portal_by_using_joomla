@@ -1,0 +1,96 @@
+/*!
+ * Sun Framework
+ * Copyright 2016 Joomlashine.
+ * @file _pagination.scss
+ */
+
+div.pagination {
+	display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 30px 0;
+	p.counter{
+		font-size: 12px;
+	}
+	ul.pagination {
+	  margin: 0 -6px;
+	  padding: 0;
+	  li {
+	    display: inline-block;
+	    a {
+	      font-size: 12px;
+	      line-height: 14px;
+	      border-radius: 3px;
+	      background-color: transparent; 
+  		  border: solid 1px #cdb77e;
+	      padding: 9.5px 15px;
+	      margin: 0 5px;
+	      color: #000;
+	      &:hover {
+	    	background-color: #cdb77e;
+	      }
+	    }
+	    &.active { 
+	      a {
+	        color: #fff;
+	        border-width: 1px;
+	        border-style: solid;
+	        border-radius: 4px;	
+	        background-color: #cdb77e;
+	        border: solid 1px #cdb77e;
+	      }
+	    }
+	    &.disabled a{
+	    	color: #b89b7d;
+	    	border: solid 1px #cdb77e !important; 
+	    	&:hover{
+  		  		border: solid 1px #cdb77e;
+  		  		background-color: transparent;
+	    	}
+	    }
+	  }
+	}
+}
+.pager {
+	padding: 0;
+	margin: 50px 0px 30px;
+	li {
+		> a, > span {
+			border-radius: 0;
+		}
+	}
+}
+ul.pagination {
+  margin: 0 -6px;
+  padding: 0;
+  li {
+    display: inline-block;
+    a {
+      font-size: 12px;
+      line-height: 14px;
+      border-radius: 3px;
+      border: 1px solid #d1d6de;
+      padding: 9.5px 15px;
+      margin: 0 5px;
+      color: #394A5C;
+      &:hover {	
+    	background-color: #F0F2F5;
+      }
+    }
+    &.active {
+      a {
+        color: #fff;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;	
+      }
+    }
+    &.disabled a{
+    	color: #b8c2cc;
+    	&:hover{
+    		border-color: transparent;
+    		background-color: transparent;
+    	}
+    }
+  }
+}

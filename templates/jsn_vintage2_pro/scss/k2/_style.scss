@@ -1,0 +1,498 @@
+#k2Container a,.k2LatestCommentsBlock a, .k2TagCloudBlock a{
+  &:hover{
+    text-decoration: underline;
+    color: inherit;
+  }
+}
+.itemListView {
+  div.catItemHeader {
+    span.catItemDateCreated, .catItemAuthor {
+      display: inline-block;
+      line-height: 24px;
+    }
+
+    h3.catItemTitle {
+      font-size: 1.4em;
+      padding: 0 0 15px;
+
+    }
+  }
+  div.catItemLinks {
+    margin-bottom: 0;
+    > div {
+      display: inline-block;
+      width: 100%;
+      @include rtl-padding-right(15px);
+    }
+    i {
+      @include rtl-padding-right(5px);
+    }
+  }
+  div.catItemView {
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #DBDBDB;
+
+  }
+  .catItemImageBlock {
+    margin-bottom: 0;
+  }
+  div.catItemIntroText {
+    padding-bottom: 0;
+    p:last-child {
+      margin-bottom: 0;
+    }
+    h2{
+      font-size: 1.4em;
+    }
+  }
+}
+.itemView {
+  .info-item {
+    > span, > div {
+      display: inline-block;
+      @include rtl-padding-right(10px);
+    }
+    .itemRatingBlock {
+      padding: 0;
+      .itemRatingForm {
+        margin-bottom: -5px;
+      }
+    }
+    i {
+      @include rtl-padding-right(5px);
+    }
+  }
+  #comment-form {
+    .form-group {
+      label {
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .itemBackToTop {
+    padding-top: 20px;
+  }
+}
+.tagView {
+  div.tagItemHeader div.createdate {
+    i {
+      @include rtl-padding-right(5px);
+    }
+  }
+  div.tagItemView {
+    margin-bottom: 30px;
+  }
+}
+
+// override for template
+div.userItemHeader h3.userItemTitle {
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0 0 10px;
+  padding: 0;
+}
+h3.catItemTitle {
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0 0 10px;
+}
+
+.itemView {
+  h2.itemTitle {
+    font-size: 1.2em;
+    //font-weight: bold;
+    line-height: 45px;
+  }
+  div.itemCommentsForm {
+    h3 {
+      font-size: 20px;
+    }
+    form input#submitCommentButton {
+      background-color: #323232;
+      border: 1px solid #323232;
+      color: #fff;
+      display: inline-block;
+      text-align: center;
+      font-size: 13px;
+      height: 45px;
+      line-height: 41px;
+      letter-spacing: 0px;
+      padding: 0 20px;
+      border-radius: 2px;
+      text-transform: uppercase !important;
+    }
+    form input.inputbox {
+      @include box-shadow(none);
+    }
+  }
+  .itemAuthorLatest, .itemRelated ,.itemNavigation{
+    h3 {
+      font-size: 1.3em;
+    }
+    ul{
+      padding-left: 15px;
+    }
+  }
+}
+.tagView {
+  h2 {
+    font-size: 20px;
+  }
+  span.tagItemImage {
+    margin-right: 20px;
+  }
+}
+.userView {
+  span.userItemImage {
+    margin-right: 20px;
+  }
+}
+#k2Container.k2AccountPage {
+  padding-top: 10px;
+  th.k2ProfileHeading {
+    background: transparent;
+  }
+}
+div.k2AccountPage {
+  table.admintable td.key, .k2AccountPage table.admintable td.paramlist_key {
+    font-size: 14px;
+  }
+  table tr {
+    padding-bottom: 10px;
+    display: block;
+    td label {
+      @include rtl-padding-right(10px);
+    }
+  }
+  #genderm-lbl, #genderf-lbl {
+    @include rtl-padding-left(50px);
+  }
+  input {
+    padding: 3px 12px;
+  }
+}
+div.k2ItemsBlock {
+  ul li div.moduleItemIntrotext a.moduleItemImage {
+    display: block;
+    img {
+      float: none;
+    }
+  }
+}
+div.k2CalendarBlock {
+  height: auto;
+  table.calendar {
+    width: 100%;
+  }
+}
+div.k2CategoriesListBlock {
+  ul li {
+    margin-bottom: 8px;
+  }
+}
+div.userItemView {
+  margin-bottom: 30px;
+  div.userItemLinks {
+    margin-bottom: 5px;
+    background: rgba(255,255,255,0.6);
+    border: 1px solid #d9dee5;
+    border-radius: 3px;
+    padding: 0 10px;
+  }
+}
+div.k2Pagination {
+  margin-top: 0;
+  ul li a {
+    padding: 5px 10px;
+  }
+}
+.itemSocialSharing {
+  div.itemFacebookButton {
+    width: auto;
+  }
+}
+div.k2AccountPage {
+  table.admintable td.key, table.admintable td.paramlist_key {
+    background: transparent;
+    border: none;
+  }
+  table.admintable {
+    td input, td textarea {
+      margin-left: 25px;
+    }
+    input[type="file"] {
+      padding: 0;
+    }
+    td .radio input {
+      margin-left: -20px;
+    }
+  }
+}
+form#user-registration .control-label,
+#member-registration .control-label {
+  text-align: left;
+}
+/* ============================================================== */
+/* ============================================================== */
+.jsn-article-toolbar {
+  padding: 5px;
+  line-height: 17px;
+  .jsn-article-info {
+    font-size: 12px;
+    .fa {
+      margin: 0 5px;
+    }
+    span,a{
+      font-style: italic;
+    }
+  }
+  div.k2ItemToolbar {
+    margin: 0;
+    background-color: transparent;
+  }
+}
+.k2ItemContentFooter {
+  margin-bottom: 10px;
+}
+div.itemContentFooter {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+div.k2ItemLinks {
+  padding: 5px 10px;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+  background-color: #FFFFF0;
+  line-height: 22px;
+}
+div.itemIntroText {
+  font-size: 1em !important;
+  font-weight: normal !important;
+  line-height: 1.5 !important;
+  padding: 2px 0 !important;
+}
+.itemDateModified {
+  text-align: right;
+  font-style: italic;
+}
+div.itemAuthorBlock {
+  padding: 8px;
+  div.itemAuthorDetails {
+    padding: 0 0 10px;
+    .itemAuthorName {
+      margin: 0 0 10px;
+    }
+    .userAdditionalInfo {
+      margin-bottom: 10px;
+    }
+  }
+}
+div.itemComments {
+  margin-bottom: 10px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  .itemCommentsList{
+    border-bottom: 1px dotted #322020;
+
+    li{
+      border-top: 1px dotted #322020;
+      background: transparent !important;
+      border-bottom: none!important;
+      img{
+        border: 1px solid #dbdbdb;
+      }
+      .itemCommentsWrapper{
+        padding-left: 20px;
+      }
+      p{
+        padding: 0 !important;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+#k2Container div.itemNavigation a.itemNext {
+  padding: 0;
+  &:hover{
+    color: #251313;
+  }
+}
+div.itemNavigation {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background: transparent;
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  .itemNavigationTitle {
+    font-size: 1.3em;
+  }
+}
+div.k2LatestCommentsBlock {
+  p.author, p.createdate{
+    font-style: italic;
+    &:before{
+      font-family: FontAwesome;
+    }
+  }
+  ul {
+    li {
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px dotted #000;
+      &:last-child, &.lastItem {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+div.k2TagCloudBlock a {
+  color: #251313;
+  border-radius: 4px;
+  &:hover{
+    color: #fff;
+  }
+}
+div.catItemHeader h3.catItemTitle span {
+  display: inline-block;
+}
+
+@media (max-width: 480px) {
+  div.k2AccountPage {
+    table {
+      width: 100%;
+      display: block;
+      text-align: left;
+      th, td {
+        width: 100%;
+        display: block;
+      }
+      label {
+        text-align: left;
+        display: block;
+        float: none;
+        clear: both;
+      }
+      input, textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+      }
+    }
+    tbody, table.admintable td.key, table.admintable td.paramlist_key {
+      width: 100%;
+      display: block;
+    }
+    #genderm-lbl, #genderf-lbl {
+      padding: 0;
+      input {
+        margin-left: -45px;
+      }
+    }
+  }
+}
+.itemList .itemContainerLast + div {
+  clear: both;
+}
+.catItemReadMore a.k2ReadMore{
+  background-color: transparent!important;
+}
+.jsn-article-toolbar, div.k2ItemLinks {
+  border: 1px solid #d9dee5;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+}
+div.itemGooglePlusOneButton{
+  display: inline-block;
+}
+.itemIsFeatured .jsn-article-footer {
+  border-bottom: 1px solid #dbdbdb;
+}
+.itemAuthorLatest {
+  h5{
+    font-size: 1.1em;
+    color: #5a8406;
+  }
+  ul{
+    padding-left: 20px;
+  }
+}
+div.tagItemCategory{
+  border-right: none;
+}
+div.userBlock h2 {
+  margin: 0;
+}
+.userItemContentFooter{
+  padding-bottom: 8px;
+  margin-top: 15px;
+}
+div.latestItemReadMore a,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+  background: transparent!important;
+}
+.latestItemsCategoryImage{
+  float: left;
+}
+.k2FeedIcon{
+  float: left;
+}
+div.latestItemsCategory h2 {
+  margin: 0.5em 0;
+  font-size: 1.4em;
+}
+div.catItemCategory span, div.catItemTagsBlock span{
+  font-weight: normal;
+}
+div.catItemIsFeatured:before, div.userItemIsFeatured:before, div.itemIsFeatured:before{
+  content: '';
+}
+div.itemHeader h2.itemTitle span{
+  position: absolute;
+  top: 0;
+  right: 2px;
+  sup {
+    font-size: 11px;
+    color: #fff;
+    background: #CA1D04;
+    padding: 3px 8px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-font-smoothing: auto;
+  }
+}
+#k2Container.itemIsFeatured h2.itemTitle{
+  padding-right: 50px;
+  font-size: 1.2em;
+  min-height: 50px;
+  line-height: 1.8;
+}
+div.itemCategory span, div.itemTagsBlock span, #k2Container div.itemNavigation span.itemNavigationTitle {
+  font-weight: normal;
+}
+#k2Container h2.itemTitle,
+#k2Container h2.latestItemTitle,
+#k2Container h2.tagItemTitle,
+#k2Container h3.catItemTitle,
+#k2Container h3.userItemTitle {
+  font-size: 1.4em;
+  line-height: 1.5;
+  padding: 0;
+  margin-bottom: 1em;
+}
+#k2Container.itemIsFeatured h2.itemTitle{
+  padding-right: 50px;
+  font-size: 1.2em;
+  min-height: 50px;
+  line-height: 1.8;
+}
+#k2ModuleBox236 .calendar tbody td,
+#k2ModuleBox236 .calendar tbody td.hilite,
+#k2ModuleBox236 .calendar tbody td.selected{
+  border: none;
+  padding: 5px;
+  text-align: center;
+}

@@ -1,0 +1,257 @@
+/* ============================ */
+$main-color: false !default;
+@if($main-color != false) {
+  .link-action {
+    &:hover {
+      background: darken($main-color, 20%);
+    }
+  }
+  a,
+  .title-property,
+  #sunfw-master .sw-categories-list.Items .Item2 .Title .Title,
+  .kfrontend .btn-link,
+  .jsn-error-page .goto-home a{
+		color: $main-color;
+	}
+	.catItemReadMore a.k2ReadMore,
+	.cal_td_dayshasevents{
+		background-color: $main-color;
+	}
+	div.latestItemReadMore a,
+	.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+		background: $main-color;
+	}
+	.sunfw-com-jomres .ui-state-active, .ui-widget-content .ui-state-active,
+	h3.sw-multi-color .Title,
+	h2.panel-title,
+	.dataTable th
+    {
+		color: $main-color;
+	}
+
+	.sunfw-menu-head.navbar-default .navbar-nav > li.parent:hover > a{
+      &:before, &:after{
+        border-bottom-color: $main-color;
+      }
+	}
+  .navbar-default .navbar-toggle{
+    color: $main-color;
+  }
+  .sunfw-pos-breadcrumbs .jsn-breadcrumb .breadcrumb li a,
+  .sunfw-pos-breadcrumbs .jsn-breadcrumb .breadcrumb > li + li a{
+    color: $main-color;
+  }
+  .control-group select{
+    border-color: $main-color;
+  }
+  .edit #images .input-prepend.input-append .modal.btn{
+    border-color: $main-color;
+    background-color: $main-color;
+  }
+  ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3,
+  .sunfw-megamenu-sub-menu h3.module-title{
+    color: $main-color;
+  }
+  div h3.title-article a {
+    color: $main-color !important;
+  }
+  .home-article-meta{
+    color: $main-color !important; 
+  }
+  .title-type-1{
+    &:after{
+      background-color: $main-color;
+    }
+  }
+  .login .nav.nav-stacked > li > a{
+    color: $main-color;
+  }
+  .bg-main-color{
+    background-color: $main-color !important;
+  }
+  .home-article .item .image-article:before{
+    background-color: $main-color;
+  }
+  .home-article .item .image-article:after{
+    border-top-color: $main-color;
+  }
+  .edit ul.nav-tabs li.active a:before,
+  .edit ul.nav-tabs li a:hover:before{
+    background-color: $main-color;
+  }
+  #eb .is-active>.eb-navbar__footer-link, #eb .eb-navbar__footer-link:hover{
+    color: $main-color !important;
+  }
+  #eb div .mod-btn-primary{
+    background-color: $main-color !important;
+  }
+  .item-page.edit #attrib-sunfw-options .input-append a.btn{
+    background-color: $main-color;
+    border-color: $main-color;
+  }
+  .cat-children .badge, .categories-list .badge{
+    border-color: $main-color;
+  }
+  .cat-children a .icon-plus:after, .cat-children a .icon-minus:after, .categories-list a .icon-plus:after, .categories-list a .icon-minus:after{
+    background-color: $main-color;
+  }
+  .label-info[href]:hover, .label-info[href]:focus, .content_rating + form input[name="submit_vote"], .content_rating + form .content_vote input{
+    background: $main-color !important;
+  }
+  .readmore a{
+    background-color: $main-color;
+  }
+  .article-info dd > a{
+    color: $main-color;
+  }
+  .menu.menu-treemenu li.current > a{
+    color: $main-color;
+  }
+  .label-info{
+    border-color: $main-color;
+    color: $main-color;
+  }
+  .badge-info{
+    border-color: $main-color; 
+  }
+  div.pagination ul.pagination li a{
+    border-color: $main-color;
+  }
+  .chzn-container-single .chzn-single{
+    border-color: $main-color;
+  }
+  div.pagination ul.pagination li.active a{
+    background-color: $main-color;
+    border-color: $main-color;
+  }
+  .contact-category #adminForm .category .list-title a{
+    color: $main-color;
+  }
+  .contact .accordion-group .contact-links ul li a{
+    color: $main-color;
+  }
+  .contact .accordion-group,
+  .contact .accordion-group .accordion-heading a{
+    border-color: $main-color;
+  }
+  .module-latest-blog .sunfw-latestnews ul li .date .day, .module-latest-blog .sunfw-latestnews ul li .date .month,
+  .module-latest-blog .sunfw-latestnews ul li .content a:hover{
+    color: $main-color;
+  }
+  #eb .eb-posts .eb-post .eb-post-more a.btn{
+    background-color: $main-color !important;
+  }
+  #eb .btn-primary{
+    background-color: $main-color !important;
+  }
+  #eb .eb-showcase-more .btn,
+  #eb .eb-tags-finder .btn,
+  #eb .eb-authors-finder .btn{
+    background-color: $main-color !important;
+  }
+  #eb .eb-tag-rss a{
+    color: $main-color !important;
+  }
+  #eb.mod_easybloglatestblogs .eb-mod .mod-item .mod-post-type a,
+  #eb .text-muted, #eb .eb-entry-meta .fa, #eb .eb-entry-meta a{
+    color: $main-color;
+  }
+  #eb .eb-filter-select-group select,
+  #eb .eb-author, #eb .eb-authors-head,
+  #eb .eb-authors-finder .form-control, #eb .eb-tags-finder .form-control,
+  #eb .mod-input{
+    border-color: $main-color !important;
+  }
+  #eb .eb-entry .eb-entry-tags .eb-tags span a, 
+  #eb .eb-posts .eb-post .eb-tags span a,
+  #eb.mod-easyblogtagcloud a{
+    border-color: $main-color;
+    color: $main-color;
+  }
+  #eb .eb-entry .eb-entry-tags .eb-tags span a:hover,
+  #eb .eb-posts .eb-post .eb-tags span a:hover,
+  #eb.mod-easyblogtagcloud a:hover{
+    background-color: $main-color;
+  }
+  #eb .eb-stats-nav>li.active>.btn::before{
+    background-color: $main-color;
+  }
+  ul.sunfw-tpl-menu{
+    > li.megamenu{
+      ul.sunfw-megamenu-sub-menu{
+        ul.menu{
+          li{
+            &:hover, &.active{
+              .caret{
+                border-left-color: $main-color;
+              }
+            }
+          }
+        } 
+      } 
+    }
+  }   
+}
+
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false) {
+  .readmore a:hover{
+    background-color: $sub-color;
+  }
+  .layout-item .blog .page-header h1 a:hover, 
+  .layout-item .blog .page-header h2 a:hover{
+    color: $sub-color;
+  }
+  .blog-featured h2 a:hover,
+  .page-header h2 a:hover{
+    color: $sub-color;
+  }
+  .sunfw-pos-breadcrumbs .jsn-breadcrumb .breadcrumb > li + li:hover a,
+  .sunfw-pos-breadcrumbs .jsn-breadcrumb .breadcrumb li:hover a,
+  .btn.btn-plain:hover{
+    color: $sub-color;
+  }
+  .content_rating + form input[name="submit_vote"]:hover, .content_rating + form .content_vote input:hover{
+    background-color: $sub-color !important;
+  }
+  #eb div .mod-btn-primary:hover{
+    background-color: $sub-color !important;
+  }
+  div h3.title-article a :hover{
+    color: $sub-color;
+  }
+  #eb .eb-showcase-more .btn:hover,
+  #eb .eb-tags-finder .btn:hover,
+  #eb .eb-authors-finder .btn:hover{
+    background-color: $sub-color !important;
+  }
+  .article-info dd > a:hover{
+    color: $sub-color;
+  }
+  .contact .accordion-group .contact-links ul li a:hover{
+    color: $sub-color;
+  }
+  #eb .btn-primary:hover{
+    background-color: $sub-color !important;
+  }
+  #eb .eb-posts .eb-post .eb-post-more a.btn:hover{
+    background-color: $sub-color !important;
+  }
+  ul.menu-sidemenu > li:hover > a.get-it,
+  .menu.menu-treemenu > li:hover > a.get-it,
+  .sunfw-menu-head.navbar-default .navbar-nav > li > a.get-it:hover{
+    background-color: $sub-color;
+  }
+  .sw-aboutventure-bg .pb-background,
+  .pagination > .active > a,
+  .pagination > .active > a:hover{
+    background: $sub-color;
+  }
+  .bg-main-color:hover{
+    background-color: $sub-color !important;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: $sub-color;
+  } 
+}

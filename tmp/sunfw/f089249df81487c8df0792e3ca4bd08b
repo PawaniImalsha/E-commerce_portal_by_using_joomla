@@ -1,0 +1,49 @@
+{
+  "developer": [
+    {
+      "id": "vintage",
+      "name": "JSN Vintage",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_vintage_2/thumbnail_vintage.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_vintage_2/pro/vintage/",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_vintage_2_pro_vintage_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "wedding",
+      "name": "JSN Wedding",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_vintage_2/thumbnail_wedding.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_vintage_2/pro/wedding/",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_vintage_2_pro_wedding_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "individual": [
+    {
+      "id": "vintage",
+      "name": "JSN Vintage",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_vintage_2/thumbnail_vintage.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_vintage_2/pro/vintage/",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_vintage_2_pro_vintage_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "wedding",
+      "name": "JSN Wedding",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_vintage_2/thumbnail_wedding.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_vintage_2/pro/wedding/",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_vintage_2_pro_wedding_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "free": [
+    {
+      "id": "vintage",
+      "name": "JSN Vintage",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_vintage_2/thumbnail_vintage.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_vintage_2/pro/vintage/",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_vintage_2_pro_vintage_sample_data_j3x.zip",
+      "tags": []
+    }
+  ]
+}
+

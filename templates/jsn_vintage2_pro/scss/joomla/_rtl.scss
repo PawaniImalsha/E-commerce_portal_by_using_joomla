@@ -1,0 +1,111 @@
+#sunfw-master.sunfw-direction-rtl {
+  div.itemRatingBlock span,
+  div.catItemRatingBlock span, .itemRatingForm,
+  .demo-frontpage .grid-layout .grid-col {
+    float: right;
+  }
+  .demo-frontpage .grid-layout .grid-col:last-child {
+    border-right: 1px solid #ddd;
+    border-left: 0;
+  }
+  .k2Avatar img {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  div.itemIsFeatured:before, div.catItemIsFeatured:before, div.userItemIsFeatured:before {
+    right: auto;
+    left: 10px;
+  }
+  .box-title .fa {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .jsn-icon-info .contact-list li:before{
+    right: 25px;
+  }
+  .jsn-icon-info .contact-list li{
+    padding: 0;
+  }
+  #_2Zp8x7X2HG{
+    margin: 0px 0px 10px 20px;
+  }
+  .side-right{
+  border-left: 0;
+  border-right: 1px solid #ccc;
+  }
+  .breadcrumb > li + li:after{
+    content: "/ ";
+    padding: 0 0px;
+    color: #ccc
+  }
+
+  .sunfw-pos-breadcrumbs .jsn-breadcrumb .breadcrumb > li + li:before{
+    content: "";
+  }
+  .breadcrumb > li + li:before{
+    display: none;
+  }
+  .sunfw-pos-breadcrumbs .jsn-breadcrumb .breadcrumb > li + li::after{
+    font-family: FontAwesome;
+    content: "\f0d9";
+    font-size: 14px;
+    padding: 0 5px;
+  }
+  .menu.menu-treemenu li{
+    &.parent > a:before{
+      content: '\f0d9';
+    }
+    ul {
+      padding-right: 0;
+    }
+    a{
+      padding-right: 10px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .menu.menu-sidemenu li.parent > a {
+      &:before{
+        display: none;
+      }
+      &:after {
+        font-family: FontAwesome;
+        content: "\f0d9";
+        position: absolute;
+        left: 5px;
+      }
+    }
+  }
+  .module-style[class*="box-"] .module-title .box-title{
+    padding-right: 10px;
+  }
+  ul.nav > li > a i.fa {
+    margin-left: 5px;
+  }
+  ul.sunfw-tpl-menu > li.right > ul{
+    left: auto;
+  }
+  .article-info dd{
+    margin-right: 0;
+  }
+  picture.pull-left{
+    margin: 0px 0px 10px 20px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .custom-direction-rtl  ul.top-menu {
+    float: none;
+  }
+  .custom-direction-rtl .breadcrumb > li + li:before {
+    padding: 0 2px 0 0;
+  }
+  .sunfw-direction-rtl ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item{
+  > ul li:hover > ul,
+  .module-style > div > ul li:hover > ul{
+    right: 0;
+  }
+  }
+}
